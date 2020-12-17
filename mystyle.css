@@ -1,0 +1,67 @@
+.grid-item {
+  box-sizing: border-box;
+  border: solid black 1px;
+  display: inline-block;
+  margin: 2% 1% 1% 1%;
+  background-color: grey;
+  position: relative;
+ 
+}
+.grid-item {
+    width: 40%;
+}
+@media (max-width: 767px){
+  .grid-item {
+    width: 84%;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .grid-item--one, .grid-item--two {
+    width: 40%;
+}
+  .grid-item--three {
+    width: 83%;
+}
+}
+@media (min-width: 992px) {
+  .grid-item {
+    width: 30%;
+}
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+h1 {
+  text-align: center;
+    font-size: 1.75em;
+}
+.grid-container {
+  width: 100%;
+  text-align: center;
+}
+
+.dish {
+  float: right;
+  border: solid black;
+  border-width: 0px 0px 1px 1px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.25em;
+}
+.dish--one {
+  background-color: pink;
+ 
+}
+section {
+  padding: 15px 5px 5px 5px;
+ 
+}
+
+.dish--two {
+  background-color: red;
+}
+.dish--three {
+  background-color: beige;
+   }
